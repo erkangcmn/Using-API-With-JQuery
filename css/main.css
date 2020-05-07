@@ -1,0 +1,134 @@
+/*
+    PLEASE DONT'T DELTE 
+    https://github.com/erkangcmn
+    https://twitter.com/erkangcmn
+    https://www.instagram.com/erkangcmn/
+*/
+
+body{
+    font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.header a{
+    color:black;
+    text-decoration: none;
+}
+.header a:hover{
+    color:black;
+    text-decoration: none;
+}
+.content{
+    margin-top: 20px;
+}
+.firstRow{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ______________ Trending ______________ */
+.header{
+    color:white;
+    background-color: none;
+}
+.trending-but{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    text-emphasis: none;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        text-align: center;
+    }
+    .mobil-search{
+        min-height: 70px;
+    }
+    .trending-but{
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        width: 50%;
+        text-emphasis: none;
+    }
+}
+
+.trend-select{
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+
+
+/* ______________ Card ______________ */
+.card{
+    border:none;
+    color:white;
+    max-width: 420px;
+    max-height: 300px;
+    overflow: hidden;
+    margin:10px;
+    min-width: 420px;
+    min-height: 300px;
+    background: none;
+}
+
+
+/* ______________ İmage ______________ */
+.card-img-top{  
+    position: absolute;
+    z-index: 2;
+    transition: 2s;
+    min-height: 294px; 
+ 
+}
+.card:hover .card-img-top{
+    z-index: 2;
+    position: absolute;
+    min-height: 294px;
+    margin-left: 192px;
+}
+
+
+/* ______________ Title vs. ______________ */
+.one{
+    margin: 10px 5px 10px 10px;
+    transition: opacity 1s;
+    z-index: 0;
+    opacity: 1;
+
+}
+
+
+/* ______________ Overview ______________ */
+.overviewContent{
+    margin: 10px;
+    position: absolute;
+    transition: opacity 1s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+.card:hover .overviewContent{
+    margin: 10px;
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+.no-gutters{
+    border: solid white 3px;
+    min-height: 300px;
+    border-radius:8px;
+}
