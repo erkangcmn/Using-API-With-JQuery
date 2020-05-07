@@ -1,5 +1,5 @@
 /*
-    PLEASE DONT'T DELETE 
+    PLEASE DON'T DELETE 
     https://github.com/erkangcmn
     https://twitter.com/erkangcmn
     https://www.instagram.com/erkangcmn/
