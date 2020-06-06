@@ -1,4 +1,4 @@
-Using-API-With-JQuery<br>
+<b>Using-API-With-JQuery<b><br>
 Preview: https://using-api-with-jquery.herokuapp.com/
 
 Trending.js File<br>
