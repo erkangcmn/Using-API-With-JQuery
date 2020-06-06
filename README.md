@@ -1,5 +1,5 @@
 Using-API-With-JQuery
-
+Preview: https://using-api-with-jquery.herokuapp.com/
 
 Trending.js File
 Line 6, 68 and 127 paste YOUR The Movie Database API KEY.
